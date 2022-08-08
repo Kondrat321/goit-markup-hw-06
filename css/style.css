@@ -681,7 +681,7 @@ margin-left: 10px;
     cursor: pointer;
     outline: none;
 }
-.form-input:focus * .input-icon{
+.form-input:focus + .input-icon{
     fill: var(--accent-color);
 }
 /* .modal-form-input-icon{
