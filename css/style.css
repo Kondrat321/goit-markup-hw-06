@@ -731,6 +731,7 @@ margin-left: 10px;
     margin-top: 10px;
 }
 .content-radio-btn{
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -738,17 +739,12 @@ margin-left: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-left: 8px;
 }
 .accept{
-color: var(--accent-color);
-text-decoration: underline;
-}
-.accept-rario-btn{
-    display: flex;
+    color: var(--accent-color);
+    text-decoration: underline;
 }
 .modal-btn{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -765,13 +761,13 @@ text-decoration: underline;
     box-shadow: 0px 4px 4px 0px #00000026;
 }
 .content-radio-btn:before{
-    display: block;
     background-image: url("../images/border.svg");
     width: 16px;
     height: 15px;
     cursor: pointer;
     content: '';
     margin-right: 8px;
+    margin-left: 12px;
 } 
 .agree:checked + .content-radio-btn::before{
     border: none;
