@@ -766,16 +766,30 @@ text-decoration: underline;
 }
 .content-radio-btn:before{
     display: block;
-    border: 1px solid #212121;
-    border-radius: 2px;
+    background-image: url("../images/border.svg");
     width: 16px;
     height: 15px;
     cursor: pointer;
     content: '';
-}
+    margin-right: 8px;
+} 
 .agree:checked + .content-radio-btn::before{
-background-color: var(--accent-color);
-background-image: url(../images/icon-accept.svg);
+    border: none;
+    background-color: var(--accent-color);
+    background-image: url("../images/icon-accept.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
 }
 
 
