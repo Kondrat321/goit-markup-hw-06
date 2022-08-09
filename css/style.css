@@ -575,7 +575,6 @@ background-color: var(--accent-color);
 }
 .form-subscribe{
 padding-left: 16px;
-margin-top: 20px;
 box-sizing: border-box;
 width: 358px;
 height: 50px;
@@ -588,12 +587,12 @@ color: #FFFFFF
 .subscribe{
 display: flex;
 gap: 12px;
+margin-top: 20px;
 }
 .subscribe-btn{
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 20px;
 width: 200px;
 height: 50px;
 background: #2196F3;
