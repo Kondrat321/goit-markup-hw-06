@@ -741,6 +741,7 @@ margin-left: 10px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    border: #000000;
 }
 .accept{
     color: var(--accent-color);
@@ -772,6 +773,12 @@ margin-left: 10px;
     margin-right: 8px;
     margin-left: 12px;
 } 
+.agree{
+    border: 1.75px;
+    width: 16px;
+    height: 15px;
+    border-radius: 4px;
+}
 .agree:checked + .content-radio-btn::before{
     border: none;
     background-color: var(--accent-color);
