@@ -671,12 +671,12 @@ margin-left: 10px;
     text-align: center;
     margin-bottom: 12px;
 }
+
 .form-input{
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    margin-bottom: 10px;
     display: block;
     padding-left: 42px;
     transition: border-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -691,12 +691,14 @@ margin-left: 10px;
 }
 .icon-place{
     position: relative;
+    display: block;
+    margin-bottom: 10px;
 }
 .input-icon{
     background-color: #FFFFFF;
     top: 50%;
     left: 12px;
-    transform: translate(0,-50%);
+    transform: translateY(-50%);
     position: absolute;
     display: block;
     transition: fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
